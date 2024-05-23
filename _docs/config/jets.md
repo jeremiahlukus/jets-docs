@@ -113,6 +113,6 @@ Jets.deploy.configure do
 end
 ```
 
-IE: The `acm_cert_arn` helper requires AWS Cert Manager IAM permissions, which only need to be granted to the remote runner on the lightweight jet local client.
+IE: The `acm_cert_arn` helper requires AWS Cert Manager IAM permissions, which only need to be granted to the remote runner vs on the lightweight jet local client.
 
 These separate `projects.rb`, `bootstrap.rb`, and `deploy.rb` configs allow Jets to control load order finely. This is particularly useful for some items that must be loaded extremely early in the boot process, like `project.rb`. This removes the need for clunky double parsing that existed in previous versions before Jets 6.
