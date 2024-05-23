@@ -3,7 +3,7 @@ title: Config Jets Deploy
 nav_text: Deploy
 category: config
 subcategory: config-deploy
-order: 2
+order: 4
 ---
 
 {% include config/deploy-rb.md %}

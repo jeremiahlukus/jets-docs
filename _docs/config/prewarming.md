@@ -2,7 +2,7 @@
 title: Jets Prewarming
 nav_text: Prewarming
 category: config
-order: 2
+order: 7
 ---
 
 Jets supports prewarming by periodically hitting the controller Lambda function with a noop prewarm request. This mitigates the Lambda cold-start issue and can be a more cost-effective way of avoiding the Lambda cold-start than using [Provisioned Concurrency]({% link _docs/config/concurrency.md %}). It's a smart or poor man's version of Provisioned Concurrency.

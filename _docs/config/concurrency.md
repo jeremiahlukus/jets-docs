@@ -1,7 +1,7 @@
 ---
 title: Concurrency
 category: config
-order: 3
+order: 6
 ---
 
 You can configure Reserved and Provisioned Concurrency for Jets Lambda Functions.

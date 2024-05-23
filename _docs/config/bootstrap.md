@@ -3,7 +3,7 @@ title: Config Jets Bootstrap
 nav_text: Bootstrap
 category: config
 subcategory: config-bootstrap
-order: 2
+order: 3
 ---
 
 {% include config/bootstrap-rb.md %}
