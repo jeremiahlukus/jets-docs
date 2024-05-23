@@ -88,6 +88,6 @@ The devil is in the details, as Provisioned Concurrency requests cost less than 
 
 **Note**: AWS updates their pricing periodically, so always check the numbers yourself. These calculations will likely be out-of-date.
 
-{% include config/reference/header.md %}
-{% include config/reference/prewarm.md %}
-{% include config/reference/footer.md %}
+{% include reference/config/header.md %}
+{% include reference/config/deploy/prewarm.md %}
+{% include reference/config/footer.md %}

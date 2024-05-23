@@ -1,7 +1,7 @@
 ---
 title: Concurrency
 category: config
-order: 2
+order: 3
 ---
 
 You can configure Reserved and Provisioned Concurrency for Jets Lambda Functions.
@@ -175,7 +175,7 @@ end
 
 Note, you can also configure Provisioned Concurrency for events, but there's little point since Event handling is typically async. A cold-start is not the end of the world. Using only on-demand Concurrency is more cost-effective.
 
-{% include config/reference/header.md %}
-{% include config/reference/lambda/controller-concurrency.md %}
-{% include config/reference/lambda/function-concurrency.md %}
-{% include config/reference/footer.md %}
+{% include reference/config/header.md %}
+{% include reference/config/deploy/lambda/controller-concurrency.md %}
+{% include reference/config/deploy/lambda/function-concurrency.md %}
+{% include reference/config/footer.md %}
